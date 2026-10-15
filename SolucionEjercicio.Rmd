@@ -61,3 +61,21 @@ colnames(Animals2) #nombre columnas
 commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
 ```
 
+
+```{r}
+##################################
+# e) Animales que no estan en ambos
+##################################
+
+soloMammals  <- setdiff(rownames(mammals),  rownames(Animals2))  # solo en mammals
+soloAnimals2 <- setdiff(rownames(Animals2), rownames(mammals))   # solo en Animals2
+
+# Visualizamos el tipo de animales que son
+soloMammals
+soloAnimals2
+
+# Calculamos cuantos son
+length(soloAnimals2) + length(soloMammals)
+
+```
+
