@@ -19,3 +19,21 @@ library(robustbase)
 ?Animals2
 ```
 
+```{r}
+
+# Para el conjunto mammals
+
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+# Para el conjunto Animals2
+
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
+
+```
+
