@@ -78,4 +78,17 @@ soloAnimals2
 length(soloAnimals2) + length(soloMammals)
 
 ```
+```{r}
+##################################
+# f) Diferencias entre los animales que no estan en ambos
+##################################
 
+mammals[soloMammals,]
+Animals2[soloAnimals2,]
+
+
+```
+
+En Animals2 aparecen los dinosaurios 'Dipliodocus', 'Triceratops' y 'Brachiosaurus', mientras que en mammals no aparece ningún tipo de dinosaurio.
+
+El resto de animales diferentes son debido a diferencias tipográficas. En mammals encontramos dos animales con el adjetivo 'Arctic', pero en Animals2 aparecen los mismos animales pero con 'Artic', sin una 'c'. Por último, en mammals aparecen los animales 'Patas monkey', 'Mole rat'. Sin embargo, en Animals2 aparecen estos mismos animales con los nombres 'Potar monkey' y 'Mole'
