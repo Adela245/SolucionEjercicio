@@ -37,3 +37,20 @@ str(Animals2)
 
 ```
 
+```{r}
+#########################
+# c) Nombre filas y columnas
+#########################
+# Para el conjunto mammals
+
+rownames(mammals) #nombre filas
+colnames(mammals) #nombre columnas
+
+# Para el conjunto Animals2
+
+rownames(Animals2) #nombre filas
+colnames(Animals2) #nombre columnas
+
+
+```
+
