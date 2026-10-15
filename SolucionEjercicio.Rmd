@@ -53,4 +53,11 @@ colnames(Animals2) #nombre columnas
 
 
 ```
+```{r}
+##################################
+# d) Caracteristicas en comun
+##################################
+
+commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
+```
 
