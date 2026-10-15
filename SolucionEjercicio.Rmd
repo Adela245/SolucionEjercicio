@@ -9,3 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+# Apartado a
+library(MASS)
+library(robustbase)
+
+# Vemos las ayudas
+?mammals
+?Animals2
+```
+
